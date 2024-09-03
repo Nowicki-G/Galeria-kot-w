@@ -74,12 +74,11 @@ h1 {
 
 .popup__close {
     background-color: transparent;
-    border: none;
-    color: #a8a8a8a8;
+    color: white;
     font-size:70px;
     position: fixed;
-    right: 50px;
-    top: 30px;
+    right: 30px;
+    top: 10px;
 }
 
 .popup.hidden {
