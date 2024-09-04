@@ -78,12 +78,8 @@ h1 {
     font-size: 50px;
     position: fixed;
     opacity: 0.5;
-    right: 30px;
+    right: 20px;
     top: 10px;
-}
-
-.popup__close:hover {
-    opacity: 1;
 }
 
 .popup__arrow {
@@ -93,10 +89,14 @@ h1 {
     height: 50px;
     line-height: 50px;
     position: absolute;
-    opacity: 0.2;
     top: 50%;
-    transition: opacity 0.3;
     width: 50px;
+}
+
+.popup__close,
+.popup__arrow {
+    opacity: 0.5;
+    transition: opacity 0.3;
 }
 
 .popup.hidden {
@@ -108,14 +108,15 @@ h1 {
     max-width: 100%;
 }
 
+.popup__close:hover,
 .popup__arrow:hover {
     opacity: 1;
 }
 
 .popup__arrow--left {
-    left: 2%;
+    left: 1.5%;
 }
 
 .popup__arrow--right {
-    right: 2%;
+    right: 1.5%;
 }
