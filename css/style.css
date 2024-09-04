@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(60deg, #6597cd, #064cee);
+    background: linear-gradient(60deg, #e4c886, rgb(152, 100, 0));
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -31,13 +31,13 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     list-style-type: none;
-    padding: 65px;
+    padding: 40px;
 }
 
 .thumbnail {
     border: solid 3px rgba(255, 255, 255, 0.9);
     border-radius: 15px;
-    box-shadow: 0 0 45px 1px rgba(0, 0, 255, 0.5);
+    box-shadow: 0 0 45px 1px rgba(144, 82, 0, 0.521);
     cursor: pointer;
     margin: 32px;
     max-height: 200px;
@@ -73,6 +73,7 @@ h1 {
 }
 
 .popup__close {
+    border-radius: 20%;
     color: black;
     font-size: 50px;
     position: fixed;
@@ -89,13 +90,13 @@ h1 {
     border: none;
     border-radius: 50%;
     font-size: 50px;
-    height: 80px;
-    line-height: 80px;
+    height: 50px;
+    line-height: 50px;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.2;
     top: 50%;
     transition: opacity 0.3;
-    width: 80px;
+    width: 50px;
 }
 
 .popup.hidden {
