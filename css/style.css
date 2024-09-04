@@ -73,7 +73,6 @@ h1 {
 }
 
 .popup__close {
-    /* background-color: transparent; */
     color: black;
     font-size: 50px;
     position: fixed;
