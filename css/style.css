@@ -23,8 +23,9 @@ h1 {
 }
 
 .gallery {
+    margin:0 auto;
     background: linear-gradient(60deg,
-            rgba(255, 255, 255, 0.1),
+            rgba(219, 21, 21, 0.1),
             rgba(255, 255, 255, 0.5));
     border-radius: 15px;
     display: flex;
